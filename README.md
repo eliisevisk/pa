@@ -33,3 +33,6 @@ git push -uf origin master
 ```
 
 Siin on ühenduse nimi origin, master on peaharu. 
+
+* git kasutamine phpStormis ja keyboard shortcutid
+    * VCS > git > to add file (ctr+alt+a) > commit (commit and push) >> push (ctr+shift+k)
