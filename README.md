@@ -35,4 +35,6 @@ git push -uf origin master
 Siin on ühenduse nimi origin, master on peaharu. 
 
 * git kasutamine phpStormis ja keyboard shortcutid
-    * VCS > git > to add file (ctr+alt+a) > commit (commit and push) >> push (ctr+shift+k)
+
+    * VCS > git > ( to add file (ctr+alt+a)) > commit (commit and push)(commit aknas valida failid, mis pannakse kaasa commitis) >> push (ctr+shift+k)
+    * in terminal ``` git log ``` to view current actions; ``` git status ``` to check files' current status.
