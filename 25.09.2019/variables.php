@@ -25,3 +25,8 @@ print 'E-mail: <a href="mailto:'.$email.'">'.$email.'</a><br>';
 print 'Vanus: '.$vanus.'<br>';
 print 'Pikkus: '.$pikkus.'<br>';
 print 'Kaal: '.$kaal.'<br>';
+
+
+//muutujate dünaamiline defineerimine
+$kmi = $kaal / ($pikkus * $pikkus);
+echo 'Kehamassiideks on:'.$kmi.'<br>';
