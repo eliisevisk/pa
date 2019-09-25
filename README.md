@@ -10,3 +10,26 @@ Antud kursus annab ülevaate programmeerimise aluste baasteadmistest PHP keele b
     * Seadistasime editori, Php põhiseadistused (line numbers, soft wrap, zoom)
     * git.exe asukoht arvutis, ühendus PhPStormiga
     * github repo loomine ja ühendamine PhPStormiga
+
+### 25.09.2019
+* git kasutamine käsurealt
+
+Kui repo ei ole initsialiseeritud, siis tuleb see ära teha:
+```
+git init
+```
+Nüüd lisa muudetud fail jälgimissüsteemi (git)
+```
+git add failinimi
+```
+Koosta kirjeldus antud muudatusele
+```
+git commit -m "kirjelduse sõne"
+```
+Lükka lokaalsest repost kirjeldus kaugreposse (nt github.com)
+
+```
+git push -uf origin master
+```
+
+Siin on ühenduse nimi origin, master on peaharu. 
