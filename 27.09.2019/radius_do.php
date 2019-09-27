@@ -6,13 +6,13 @@ $raadius=$_GET['raadius']; //<input /..../ name="raadius">
 echo 'Sisestatud raadius on: '.$raadius.'<br>';
 // arvutused
 //ringi pindala
-$ringiPindala = 3.14 * $raadius * $raadius;
+$ringiPindala = pi() * $raadius * $raadius;
 // ringi ümbermõõt
-$ringiUmbermoot = 3.14 * $raadius * 2;
+$ringiUmbermoot = pi() * $raadius * 2;
 //  muutujate andmete tüüpide ja väärtuste kontroll
 /*var_dump($ringiPindala);
 var_dump($ringiUmbermoot);*/
 // väljastame tulemuse
 echo '<hr>';
-echo 'Ringi pindala on '.$ringiPindala.'<br>';
-echo 'Ringi ümbermõõt on '.$ringiUmbermoot.'<br>';
+echo 'Ringi pindala on '.round($ringiPindala, 3).'<br>'; //ümardamine round(mida ümardan, palju komakohti jääb}
+echo 'Ringi ümbermõõt on '.round($ringiUmbermoot, 3).'<br>';//(kui täpsustust ei pane, siis ümardab täisarvuni)
