@@ -38,3 +38,6 @@ Siin on ühenduse nimi origin, master on peaharu.
 
     * VCS > git > ( to add file (ctr+alt+a)) > commit (commit and push)(commit aknas valida failid, mis pannakse kaasa commitis) >> push (ctr+shift+k)
     * in terminal ``` git log ``` to view current actions; ``` git status ``` to check files' current status.
+
+## 27.09.2019
+* php sisefunktsioonide kasutamine [loe rohkem](https://github.com/eliisevisk/pa/blob/master/27.09.2019/README.md)
