@@ -1,4 +1,4 @@
-<form action="input_du.php" method="get">
+<form action="input_do.php" method="get">
     <div>
         <label for="nimi">Nimi:</label>
         <input type="text" id="nimi" name="nimi">
