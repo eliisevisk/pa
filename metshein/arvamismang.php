@@ -12,4 +12,5 @@ switch ($mArv) {
     default:
         echo '<div style="position: relative; top: 300px; display: flex; justify-content: center; font-weight: 500; font-size: 30px;"> Õige, arvasid ära! </div>';
 }
+
 echo '<div style="position: relative; top: 400px; text-align: center;"><br><br><hr><br><a href="arvamis_input.php" style="text-decoration: none;">Tagasi arvamisse</a></div>';
