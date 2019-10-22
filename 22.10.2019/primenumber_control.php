@@ -2,8 +2,9 @@
 //defineerime funktsiooni
 
 function isPrimeNumber($number){
+    $result='';
     if($number < 2){
-        echo'Antud arv ei kuulu sobivasse vahemikku<br>';
+       $result='Antud arv ei kuulu sobivasse vahemikku<br>';
     }
     else{
         $divider=2;
@@ -12,12 +13,15 @@ function isPrimeNumber($number){
         }
     }
     if ($number==$divider){
-        echo$number.' on algarv<br>';
+        $result=$number.' on algarv<br>';
         $sum += $number;
     }
     else{
-        echo$number.' ei ole algarv<br>';
+        $result =$number.' ei ole algarv<br>';
     }
+    return $result;
 }
+
+//this is a void function which means it doesnt have a 'return' element at the end.
 //use the defined function;
-isPrimeNumber(rand(1,1000));
+echo isPrimeNumber(rand(1,1000));
