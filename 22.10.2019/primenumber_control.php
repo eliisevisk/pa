@@ -13,15 +13,37 @@ function isPrimeNumber($number){
         }
     }
     if ($number==$divider){
-        $result=$number.' on algarv<br>';
-        $sum += $number;
+        $result=true;
+
     }
     else{
-        $result =$number.' ei ole algarv<br>';
+        $result=false;
     }
     return $result;
+//    if($result=true){
+//        return "$number is prime number";
+//    }
+//    else{
+//        return"$number is not prime number";
+//    }
 }
+
 
 //this is a void function which means it doesnt have a 'return' element at the end.
 //use the defined function;
 echo isPrimeNumber(rand(1,1000));
+
+//define function which uses te boolean result of isPrimeNumber and
+//show the text - is prime or is not prime with the number value;
+
+
+function isPrimeNumberDescription($number, $isPrime){
+    if($isPrime){
+        return "$number is a prime number";
+    }
+    else{
+        return "$number is not a prime number";
+    }
+}
+$number=rand(1, 1000);
+echo isPrimeNumberDescription(2, isPrimeNumber(2));
